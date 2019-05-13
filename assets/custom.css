@@ -2,6 +2,10 @@
  * Custom CSS Classes
  */
 
+html {
+	font-family: arial;
+}
+
 .games-disk {
   background: red;
   height: 120px;
@@ -13,8 +17,8 @@ li:nth-child(even) > .games-disk {
   margin-top: 120px;
 }
 
-.header {
-	align-content: center;
+.h1 {
+	text-align: center;
 }
 
 .mt-reallybig {
@@ -37,18 +41,19 @@ li:nth-child(even) > .games-disk {
 }
 
 .bg-custom3 {
-	background: url('images/pacmans.jpg') top center no-repeat;
+	background: url('images/eating.gif') top center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .bg-custom4 {
-	background: url('images/nintendo.jpg') top center no-repeat;
+	background: url('images/nintendo.gif') top center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .bg-custom5 {
-	background: url('images/playstation.jpg') top center no-repeat;
-	background-size: cover;
+	background: black;
 }
 
 .bg-custom6 {
@@ -56,9 +61,6 @@ li:nth-child(even) > .games-disk {
 	background-size: cover;
 }
 
- .btn {
-    
-  }
 .row {
 	display: flex;
 }
@@ -67,3 +69,13 @@ li:nth-child(even) > .games-disk {
 	flex: 33.33%;
 	padding: 5px;
 }
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	position: absolute;
+
+}
+

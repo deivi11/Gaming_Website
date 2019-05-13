@@ -10,10 +10,11 @@
 	<title>The Beginning</title>
 </head>
 <body class="bg-custom1">
-	<header class="p-4 md:flex md:items-center md:justify-between text-align: center; text-white">
-  		<h1>
-    		Computer Games
-  		</h1>
+	<header>
+		<div class="p-4 text-center text-white">
+	  		<h1>
+	    		Computer Games
+	  		</h1>
   		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
     		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
     	</button>
@@ -21,37 +22,37 @@
   		<nav class="hidden" id="menu">
 		    <ul class="list-reset">
 		      <li class="md:ml-4">
-		       <a href="index.html">
+		       <a class="text-white" href="index.html">
 		          Home
 		        </a> 
 		      </li>
 		      <li class="md:ml-4">
-		        <a href="1960.html">
+		        <a class="text-white" href="1960.html">
 		          1960's
 		        </a>
 		      </li>
 		    <li class="md:ml-4">
-		        <a href="1970.html">
+		        <a class="text-white" href="1970.html">
 		          1970's
 		        </a>
 		      </li>
 		      <li class="md:ml-4">
-		        <a href="1980.html">
+		        <a class="text-white" href="1980.html">
 		          1980's
 		        </a>
 		      </li>
 		      <li class="md:ml-4">
-		        <a href="1990.html">
+		        <a class="text-white" href="1990.html">
 		          1990's
 		        </a>
 		      </li>
 		    <li class="md:ml-4">
-		        <a href="2000.html">
+		        <a class="text-white" href="2000.html">
 		          2000's
 		        </a>
 		      </li>
 		      <li class="md:ml-4">
-		        <a href="2010.html">
+		        <a class="text-white" href="2010.html">
 		          2010's
 		        </a>
 		      </li>
@@ -59,11 +60,20 @@
   	</header>
 
 	<main class="p-4 mx-10 text-white">
-		<p> What is a video game? As far as the definition transcribes is that in order to call<br> something a 'video game', you would need a video signal transmitted that creates a<br> rasterized image on a screen. These old fashioned computers started off only consisting<br> of three categories; training, instructional, and research games. So, during the 1950's the<br> start of some computer games were being created. A so called 'Tennis' game was the very first<br> game to be created roughly around 1958. This game can mostly be related to<br> what we mostly know as the 'Pong' game. Some other games that were also being created and tested<br> during this period were, Tetris, Chess, tic-tac-toe, etc.  </p>
+		<p> What is a video game? As far as the definition transcribes is that in order to call<br> 
+			something a 'video game', you would need a video signal transmitted that creates<br> 
+			a rasterized image on a screen. These old fashioned computers started off only<br> 
+			consisting of three categories; training, instructional, and research games. So,<br> 
+			during the 1950's the start of some computer games were being created. A so<br> 
+			called 'Tennis' game was the very first game to be created roughly around 1958.<br> 
+			This game can mostly be related to what we mostly know as the 'Pong' game.<br> 
+			Some other games that were also being created and tested during this period<br> 
+			were, Tetris, Chess, tic-tac-toe, etc. This was going to be the start of programmers<br> 
+			making games that were going to be a huge success worldwide.  </p>
 	</main>
 
 
-		<img class="p-4" src="assets/images/computers.jpg">
+		<img class="p-4" src="assets/images/computers.jpg" style="float: right">
 
 	<script>
 		function toggleMenu(id, className) {
